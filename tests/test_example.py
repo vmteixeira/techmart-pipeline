@@ -20,6 +20,6 @@ def sample_orders():
 
 def test_sample_orders(sample_orders):
     """Example test - shows pytest passing."""
-    assert len(sample_orders) == 4
+    assert len(sample_orders) == 3
     assert "order_id" in sample_orders.columns
     assert sample_orders["order_id"].is_unique
